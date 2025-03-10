@@ -98,4 +98,15 @@ public class Cliente {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
+
+    @Override
+    public String toString() {
+        return "\nCliente\n{" +
+                "nombre='" + nombre + '\'' +
+                ", \nidentificacion='" + identificacion + '\'' +
+                ", \ndireccion='" + direccion + '\'' +
+                ", \ntelefono='" + telefono + '\'' +
+                ", \nemail='" + email + '\'' +
+                '}';
+    }
 }
